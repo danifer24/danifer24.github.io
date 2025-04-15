@@ -1,0 +1,18 @@
+.top-nav {
+    overflow: hidden;
+    /* background-color: rgb(120, 57, 193); */
+}
+
+.top-nav #myLinks {
+    display: none;
+}
+
+/* Style the hamburger menu */
+.top-nav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
