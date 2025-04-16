@@ -1,18 +1,26 @@
-.top-nav {
-    overflow: hidden;
-    /* background-color: rgb(120, 57, 193); */
+*{
+    box-sizing: border-box;
 }
-
+body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: grey;
+}
+.logo{
+    
+}
+.icon{
+    padding-right: 10px;
+}
 .top-nav #myLinks {
     display: none;
 }
 
-/* Style the hamburger menu */
-.top-nav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
+
+
 
