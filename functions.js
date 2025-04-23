@@ -1,8 +1,8 @@
-function hamburger(){
-    var burger = document.getElementById("myLinks");
-    if (burger.style.display === "block") {
-        burger.style.display = "none";
+    function showMobileLinks(){
+    var links = document.getElementById("mobileLinks");
+    if (links.style.display === "flex") {
+        links.style.display = "none";
     } else {
-        burger.style.display = "block";
+        links.style.display = "flex";
     }
 }
