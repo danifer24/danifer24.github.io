@@ -19,9 +19,9 @@
     <header class="nav">
         <a href="index.php" class="logo">Daniel Vázquez Fernández.</a>
         <nav id="myLinks">
-            <a href="sobreMi.php">Sobre mi</a>
-            <a href="misProyectos.php">Mis Proyectos</a>
-            <a href="miCv.php">Mi CV</a>
+            <a href="aboutMe.php">Sobre mi</a>
+            <a href="myProjects.php">Mis Proyectos</a>
+            <a href="myResume.php">Mi CV</a>
         </nav>
         <a href="javascript:void(0);" class="icon" onclick="showMobileLinks()">
             <img src="styles/menu.png" alt="menu icon">
@@ -30,12 +30,7 @@
 
     </header>
     <nav class="nav" id="mobileLinks">
-        <a href="sobreMi.php">Sobre mi</a>
-        <a href="misProyectos.php">Mis Proyectos</a>
-        <a href="miCv.php">Mi CV</a>
+        <a href="aboutMe.php">Sobre mi</a>
+        <a href="myProjects.php">Mis Proyectos</a>
+        <a href="myResume.php">Mi CV</a>
     </nav>
-
-    <main>
-</body>
-
-</html>

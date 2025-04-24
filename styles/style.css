@@ -4,6 +4,10 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
   }
+main{
+    display: flex;
+    flex-direction: column;
+}
 .nav {
     display: flex;
     align-items: center;
@@ -35,10 +39,18 @@ body {
 .nav a.icon{
     display: none;
 }
-
+/*bloque imagen-texto para la el inicio*/
+.img_text{
+    display: flex;
+}
+.img_text img{
+    max-height: 200px;
+    padding: 15px;
+}
 @media screen and (max-width: 600px) {
     .nav #myLinks {display: none;}
     .nav a.icon{display: flex;}
+    .img_text{flex-direction: column;}
 }
 
 
